@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Report false positive
     document.getElementById('report').addEventListener('click', () => {
-      fetch('https://your-app.herokuapp.com/report', {
+      fetch('https://phising-detection-l47v.onrender.com/report', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ url: response.currentUrl, result: response.currentResult })

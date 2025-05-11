@@ -11,7 +11,7 @@
   ],
   "host_permissions": [
     "<all_urls>",
-    "https://your-app.herokuapp.com/*"
+    "https://phising-detection-l47v.onrender.com/*"
   ],
   "action": {
     "default_popup": "popup.html",
