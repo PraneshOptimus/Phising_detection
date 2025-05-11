@@ -1,7 +1,7 @@
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
   if (message.action === 'checkUrls') {
     const { currentUrl, pageUrls } = message.data;
-    const apiUrl = 'https://your-app.herokuapp.com/predict'; // Replace with your API URL
+    const apiUrl = 'https://phising-detection-l47v.onrender.com'; // Replace with your API URL
 
     // Check current URL
     fetch(apiUrl, {
